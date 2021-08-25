@@ -23,11 +23,11 @@ else
 mkdir -p $TARGETPATH
 fi
 
-# create a GZIP of the directory inside the target path
+# GZIP of the directory inside the target path
 tar -zcf $TARGETPATH/${SITEDIR}_$NOWDATE.tar.gz ./$SITEDIR
 
-# dump the data into a SQL file inside the target path
+# dump mysql database inside the target path
 $MYSQLDUMP -u $DBUSER -h $DBHOST -p$DBPASS $DBNAME | gzip > $TARGETPATH/${DBNAME}_$NOWDATE.sql.gz
 
-# print a message for the logfile / output email
+# print a message for the logfile
 printf "$SITEDIR has been backed up" | tee -a $LOGFILE
