@@ -54,6 +54,7 @@ CASKS=(
     iterm2
     keepassxc
     microsoft-office
+    microsoft-teams
     minecraft
     rectangle
     postman
