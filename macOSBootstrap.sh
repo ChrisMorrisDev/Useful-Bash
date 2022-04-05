@@ -75,7 +75,6 @@ sudo -u $SUDO_USER pip3 install --upgrade pip
 sudo -u $SUDO_USER pip3 install --upgrade setuptools
 
 PYTHON_PACKAGES=(
-    pyenv
     beautifulsoup4
     Django
     virtualenv
