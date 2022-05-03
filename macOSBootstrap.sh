@@ -53,6 +53,7 @@ CASKS=(
     google-chrome
     iterm2
     keepassxc
+    kid3
     microsoft-office
     microsoft-teams
     minecraft
