@@ -57,6 +57,7 @@ CASKS=(
     microsoft-office
     microsoft-teams
     minecraft
+    mysqlworkbench
     rectangle
     postman
     slack
